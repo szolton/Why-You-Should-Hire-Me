@@ -8,7 +8,7 @@ const WhyHireMePage = () => {
       {/* Slide 1: Intro */}
       <Slide bgColor="bg-[#6AC9CB] min-h-screen flex flex-col justify-center items-center px-4">
         <motion.h1
-          className="text-5xl md:text-6xl font-extrabold mb-4 text-center text-white"
+          className="text-5xl md:text-6xl font-regular mb-4 text-center text-white"
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -29,7 +29,7 @@ const WhyHireMePage = () => {
       {/* Slide 2: Skills */}
       <Slide bgColor="bg-[#6AC9CB] min-h-screen flex flex-col justify-center items-center px-4">
         <motion.h1
-          className="text-5xl md:text-6xl font-extrabold mb-4 text-center text-white"
+          className="text-5xl md:text-6xl font-regular mb-4 text-center text-white"
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -52,7 +52,7 @@ const WhyHireMePage = () => {
       {/* Slide 3: Experience */}
       <Slide bgColor="bg-[#6AC9CB] min-h-screen flex flex-col justify-center items-center px-4">
         <motion.h1
-          className="text-5xl md:text-6xl font-extrabold mb-4 text-center text-white"
+          className="text-5xl md:text-6xl font-regular mb-4 text-center text-white"
           initial={{ opacity: 0, y: 200 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -73,7 +73,7 @@ const WhyHireMePage = () => {
       {/* Slide 4: Call to Action */}
       <Slide bgColor="bg-[#6AC9CB] min-h-screen flex flex-col justify-center items-center px-4">
         <motion.h1
-          className="text-5xl md:text-6xl font-extrabold mb-4 text-center text-white"
+          className="text-5xl md:text-6xl font-regular mb-4 text-center text-white"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
